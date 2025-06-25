@@ -13,37 +13,34 @@ La traducción consiste en separar las palabras en sílabas, invertir su orden y
 
 ---
 
-## Cómo funciona
+## Instalación y ejecución
 
-### Traducción Español -> Pan
+### Opción 1: Descargar versión compilada (Windows `.exe`)
 
-1. Se separa la palabra en sílabas.
-2. Se invierte el orden de las sílabas.
-3. Se añade la sílaba `"pa"` al final de la palabra invertida.
+Puedes descargar la versión ejecutable para Windows directamente desde el siguiente botón:
 
-### Traducción Pan -> Español
+[![Descargar Traductor Pan](https://img.shields.io/badge/Descargar-EXE-blue?style=for-the-badge&logo=windows)](https://tu-url-de-descarga.com/traductor-pan.exe)
 
-1. Se elimina la sílaba `"pa"` final.
-2. Se separa la palabra en sílabas.
-3. Se invierte el orden de las sílabas para obtener la palabra original.
+**Instrucciones para ejecutar:**
+
+1. Descarga el archivo `.exe` desde el botón anterior.
+2. Ejecuta el archivo haciendo doble clic.
+3. Se abrirá la aplicación gráfica lista para usar.
+4. Si Windows muestra una advertencia de seguridad, acepta ejecutar el archivo (ya que es una aplicación local).
 
 ---
 
-## Instalación y ejecución
+### Opción 2: Ejecutar desde código fuente (Java)
 
-### Requisitos
+#### Requisitos
 
 - Java JDK 8 o superior
-- IDE o entorno para ejecutar aplicaciones Java (Eclipse, IntelliJ, NetBeans, o línea de comandos)
+- IDE o línea de comandos para compilar y ejecutar Java
 
-### Pasos
-
-1. Clonar o descargar el repositorio.
-2. Compilar las clases `Traductor` e `interfaz` dentro del paquete `main`.
-3. Ejecutar la clase `interfaz` para abrir la aplicación gráfica.
-
-Por ejemplo, desde línea de comandos:
+#### Pasos
 
 ```bash
+git clone https://github.com/tu-usuario/traductor-pan.git
+cd traductor-pan
 javac main/Traductor.java main/interfaz.java
 java main.interfaz
