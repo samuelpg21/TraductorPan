@@ -15,12 +15,12 @@ La traducción consiste en separar las palabras en sílabas, invertir su orden y
 
 ## Instalación y ejecución
 
-### Opción 1: Descargar versión compilada (Windows `.exe`)
+### Descargar versión compilada (Windows)
 
-Puedes descargar la versión ejecutable para Windows directamente desde el siguiente botón:
+Puedes descargar la versión ejecutable para Windows directamente desde los siguientes botones:
 
-[![Descargar Traductor Pan](https://img.shields.io/badge/Descargar-EXE-blue?style=for-the-badge&logo=windows)](https://github.com/samuelpg21/TraductorPan/raw/main/TraductorPan.exe)
-[![Descargar Traductor Pan JAR](https://img.shields.io/badge/Descargar-JAR-orange?style=for-the-badge&logo=java)](https://github.com/samuelpg21/TraductorPan/raw/main/TraductorPan.jar)
+[![Descargar Traductor Pan](https://img.shields.io/badge/Descargar-EXE-blue?style=for-the-badge&logo=windows)](https://github.com/samuelpg21/TraductorPan/raw/main/TraductorPan.exe) Version ejecutable (.exe)
+[![Descargar Traductor Pan JAR](https://img.shields.io/badge/Descargar-JAR-orange?style=for-the-badge&logo=java)](https://github.com/samuelpg21/TraductorPan/raw/main/TraductorPan.jar) Version compilada (.jar Necesitas java 24 para ejecutarlo)
 
 **Instrucciones para ejecutar:**
 
@@ -31,14 +31,18 @@ Puedes descargar la versión ejecutable para Windows directamente desde el sigui
 
 ---
 
-### Opción 2: Ejecutar desde código fuente (Java)
+### Ejecutar desde código fuente (Java)
 
 #### Requisitos
 
-- Java JDK 8 o superior
-- IDE o línea de comandos para compilar y ejecutar Java
+- Java JDK 24 o superior.
+- IDE o línea de comandos para compilar y ejecutar Java.
 
 #### Pasos
+
+1. Descarga o clona el repositorio.
+2. Inicia tu ide preferido e importa el proyecto.
+3. Una vez importado puedes acceder y modificar el codigo fuente.
 
 ```bash
 git clone https://github.com/tu-usuario/traductor-pan.git
